@@ -16,9 +16,9 @@ Two tasks are considered in this repo:
 3. Compile the model with Adam optimizer and loss="categorical_crossentropy"
 4. Train the model on the “train” dataset and “test” dataset for epochs =10.
 5. Evaluate the model on the training and test dataset.
-   • Print loss and accuracy of model for training and test datasets and compare their
+   - Print loss and accuracy of model for training and test datasets and compare their
 accuracy.
-   • The predicted results (classification label) on 5 random examples of the test dataset.
+   - The predicted results (classification label) on 5 random examples of the test dataset.
    
 **Task 2:** Use the pre-trained VGG19 model on imageNet for fine-tuning:
 1. Unfreeze the top 3 layers (i.e. block5_conv3, block5_conv4, and block5_pool) and then stack our custom dense layer on top of it such as step1 (Add a Flatten and 2 Dense layers with 1024 and 512 nodes respectively).
